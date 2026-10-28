@@ -1,0 +1,18 @@
+
+> temp-app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 574ms
+✓ Running next.config.ts took 53ms
+- Cache Components enabled
+- Partial Prefetching enabled
+
+ GET / 200 in 631ms (next.js: 306ms, application-code: 326ms)
+ GET / 200 in 76ms (next.js: 3ms, application-code: 73ms)
+ GET /api/entregables 200 in 721ms (next.js: 194ms, application-code: 527ms)
+ GET /api/entregables 200 in 9ms (next.js: 2ms, application-code: 7ms)
+ GET /entregable-cliente/entregable-1 200 in 1219ms (next.js: 12ms, generate-params: 902ms, application-code: 304ms)
+ POST /api/entregables/verify 200 in 188ms (next.js: 42ms, application-code: 146ms)
